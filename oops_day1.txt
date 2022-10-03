@@ -1,0 +1,150 @@
+                                                          Day 1
+
+                                                                     ASSIGNMENTS
+
+1.	Write a pseudocode to determine whether a person is eligible to vote or not  given his/her age. The voting eligibility criteria is that the person’s age must be >= 18
+
+•	Pseudocode
+Number age
+Display “enter age”
+If age >=18
+Display “eligible for voting”
+Else
+Display “ not eligible for voting”
+End if
+End
+•	Algorithm
+1.Start
+2.Enter the age
+3.If age is greater than or equal to 18 ,
+4.he/she eligible for voting
+5.If age is less than or not equal to 18 , 
+6.he/she not eligible for voting
+7.end
+ 
+2.	Write an algorithm to determine whether a number is a prime number or not.
+
+•	Pseudocode
+               input num
+initialize variable temp=0
+for loop=2 to num/2
+if num is divisible by loop
+increment temp
+end if
+end for
+if temp is equal to 0
+return the num is prime
+end if
+else
+return the num is not prime
+end else
+
+•	Algorithm
+
+              1. start
+              2. Take number as input
+              3.Initialize a variable temp to 0
+              4.Iterate a for loop from 2 to num/2
+              5.If number is divisible by loop iterator then increment temp
+              6.If the temp is equal to 0
+              7.Return the number is prime
+              8.Else
+              9.Return the number is not prime
+             10.end
+
+                      
+
+3.	Write a pseudocode to reverse the digits of a number
+
+•	pseudocode
+output “enter any number”
+input number
+reverse = 0
+while(number > 0)then
+remainder = number  %10
+reverse  = (reverse *10 ) = remainder
+number = number //10
+end while
+       output “reverse of entered number is =”+reverse 
+•	Algorithm
+1.Start
+2.Initialize reverse=0
+3.Loop while number lessthan 0
+4.Multiply reverse number by 10 and add remainder of number
+5.Divide by 10 to reverse number
+6.Reverse number equal to reverse number multiply by 10+num%10
+7.Divide number by 10
+8.Return reverse number
+9.end
+
+
+
+
+
+
+
+
+
+
+
+4.	Write an algorithm to find the factorial of a given number. 
+
+•	Pseudocode
+Procedure fact(num)
+Until num=1
+fact=fact*(num-1)
+Print fact
+End procedure
+
+•	Algorithm
+
+1.Start
+2.Enter a integer to find the factorial
+3.Read the integer and assign it to a variable
+4.From the value of the integr up to 1 multiply each digit and update the final value
+5.The final value at the end of all the multiplication till 1 is the factorial
+6.end
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+5.	Write a pseudocode to count the number of vowels in the string CITIUSTECH
+
+•	Pseudocode
+            
+ 
+               Initialize Vowels=o 
+               Print “enter string” 
+               Str[]=CITIUSTECH 
+               For (int i=0;str[i];i++) 
+               If (str[i]=”A”| str[i]=”E”| str[i]=”I”| str[i]=”O”| str[i]=”U”) 
+               Vowels++ 
+               Print vowels 
+ 
+  
+•	Algorithm
+ 
+                 1.start 
+              2.initialize vowels=0 
+              3.input string CITIUSTECH 
+              4.iterate for loop over str[] 
+              5.if str[]= ”A”|”E”|”I”|”O”|”U” 
+              6.increments vowels by 1 
+              7.print vowels 
+              8.end  
+ 
+ 
+ 
+
+               
+               
