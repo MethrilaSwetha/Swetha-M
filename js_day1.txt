@@ -1,0 +1,218 @@
+
+day-1 js
+---------
+---------
+
+
+
+1.sol:
+
+  for (let i = 5; i <= 50; i++) {
+    let flag = 0;
+
+    
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            flag = 1;
+            break;
+        }
+    }
+
+    
+    if (i > 1 && flag == 0) {
+        console.log(i);
+    }
+}
+
+-------------------------------------------------------------------
+
+2.sol:
+
+
+var n='9866783';
+
+function reverse_a_number(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
+console.log(Number(reverse_a_number(n)));
+
+
+---------------------------------------------------------
+
+3.sol:
+
+
+
+let string = "SWETHA"
+string = [...string].reverse().join("");
+
+console.log(string); 
+
+
+-----------------------------------------------------------------
+
+4.sol:
+
+
+
+let first = -1, second = -1;
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+        for (let i = 0; i <= arr.length - 1; i++) {
+            if (arr[i] > first) {
+                second = first;
+                first = arr[i];
+            }
+            else if (arr[i] > second && arr[i] != first) {
+                second = arr[i];
+            }
+        }
+        console.log(first);
+        console.log(second);
+
+-------------------------------------------------------------------
+
+5.sol:
+
+
+
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < array.length; i++) {
+    for (let j = i + 1; j < array.length; j++) {
+        let temp = 0;
+        if (array[i] <= array[j]) {
+            temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
+}
+console.log(array);
+
+---------------------------------------------------------------------
+
+6.sol:
+
+
+
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        function evenNum(arr1) {
+            result = 0;
+            for (let i = 0; i < arr1.length; i++) {
+                if (arr1[i] % 2 == 0) {
+                    result = result + arr1[i];
+                }
+            }
+            if (result == 0) {
+                console.log("No even numbers found");
+            }
+            return result
+        }
+        console.log(evenNum(array));
+
+
+-------------------------------------------------------------
+
+7.sol:
+
+
+
+
+var nums = [1, 2, 3, 4, 5];
+        var factorials = new Array();
+        var result;
+
+        for (let i = 0; i < nums.length; i++) {
+            let result = getFactorial(nums[i]);
+            console.log(result);
+            factorials.push(result);
+        }
+        function getFactorial(num) {
+            let fact = 1;
+            for (i = 1; i <= num; i++) {
+                fact *= i;
+            }
+            return fact;
+        }
+
+
+-----------------------------------------------------------------------------------------------
+
+8.sol:
+
+
+
+
+
+string1 = 'CITIUSTECH';
+        function vowel(str) {
+            vowelDict = { 'A': false, 'E': false, 'I': false, 'O': false, 'U': false }
+            for (let i = 0; i < str.length; i++) {
+                if (str[i] in vowelDict) {
+                    vowelDict[str[i]] = true;
+                }
+            }
+            count = 0;
+            for (let key in vowelDict) {
+                if (vowelDict[key] == true) {
+                    count = count + 1;
+                }
+            }
+            console.log(count);
+        }
+        vowel(string1);
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+9.sol:
+
+
+
+
+array = ['swetha', 'methrila', 'steven', 'dad','mom'];
+
+        function arrLastChar(arr1) {
+            for (let i = 0; i < arr1.length; i++) {
+                arr1[i] = arr1[i].slice(0, arr1[i].length - 1) + arr1[i].slice(arr1[i].length - 1).toUpperCase();
+            }
+            console.log(arr1);
+        }
+        arrLastChar(array);
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+10.sol:
+
+
+
+
+function countRepeatingDigits(N)
+{
+	var res = 0;
+	var cnt =Array(10).fill(0);
+
+	while (N > 0) {
+		var rem = N % 10;
+		cnt[rem]++;
+		N = Math.floor(N / 10);
+	}
+
+	for (var i = 0; i < 10; i++) {
+
+		if (cnt[i] > 1) {
+
+			res++;
+		}
+	}
+	return res;
+}
+var N=7312180905;
+
+console.log(countRepeatingDigits(N));
+
+
