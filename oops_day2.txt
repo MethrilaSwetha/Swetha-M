@@ -1,0 +1,126 @@
+                                                                   DAY-2
+                                                             ASSIGNMENT
+
+1.Q.   Given an entity named Television, identify its attributes and explain how will you do   Abstraction? 
+  
+ A :      If television is the entity, then the attributes are, 
+
+•	Screen
+•	PCB   
+•	Audio System
+•	Memories 
+•	Sensor 
+
+Abstraction is the process of hiding internal data and showing the essential part.
+
+So Abstraction of a TV (entity) can be determined as While operating the TV we can change the channels, volume and other settings using a remote which means only essential part is accessed. But we don’t know the internal process that how it is implemented , so here the internal process is hidden.
+              
+
+
+
+
+
+2.Q. Given an entity named Hospital, explain Encapsulation with respect to it.  
+
+ A :  If Hospital is the entity, then the attributes are, 
+
+•	Patient 
+•	Nurse 
+•	Medicines
+•	Doctor
+
+ 
+Encapsulation refers to integrating variables and methods into a single unit. 
+
+So Encapsulation of an Hospital (entity) can be determined as when a patient is in need to be diagnose
+to a particular disease he will consult to the particular doctor who is a specialist in that disesase. So the treatment is given to the patient according to his disease by the specialist doctor in the hospital (single unit) is referred  as Encapsulation .
+
+
+
+
+
+3.Q.  Given an entity named TrafficSignal, explain Polymorphism with respect to it. 
+
+
+A :     If TrafficSignal is the entity, then the attributes are,
+          
+•	Traffic police
+•	Traffic
+•	Public
+•	Traffic light
+    
+            
+Polymorphism is the provision of a single interface to entities of different types, or the use of a single symbol to represent multiple different types.
+
+So polymorphism of an TrafficSignal(entity) can be determined as traffic signal has 3 different colours, they are green red and orange. Red indicates stop while green indicates go and orange indicates get ready to go. So here the traffic signal is a single symbol to represent the 3 different colours. 
+
+ 
+ 
+
+
+
+
+4.Q.  Given an entity named BroadBandConnection, explain inheritance with respect to it.  
+  
+A:     If BoardBandConection is the entity, then the attributes are, 
+              
+
+•	Satellite
+•	Wireless
+•	Cable modem
+•	fiber
+
+Inheritance is a mechanism in which one object acquires all the properties and behaviours of a parent         object 
+
+So Inheritance of an BoardBandConnection (entity) can be determined as to create broad band connections like airtel, jio etc. All broad band objects have the same properties and behaviors. They can provide good internet, router, modem etc. Instead of creating these classes individually a general broad band class with all the attributes and behaviors of a broad band can be used to model all broad band objects, the other classes then inherit or are created on the superclass attribute and methods.   
+
+
+
+
+
+
+
+
+5.Q. Given an entity named MobilePhone, identify its static & dynamic attributes.  
+   
+A:     If mobile phone is the entity, then the static & dynamic attributes are,
+
+
+	Static attributes are built into the source which cannot be modified or removed.
+       
+              Static attributes of mobile phone are:
+•	Camera
+•	Battery
+•	mobile phone model
+
+
+	Dynamic attributes allow you to add or delete attributes on a particular source.
+       
+              Dynamic attributes of mobile phone are:
+•	settings
+•	mobile case
+•	wallpaper
+•	volume
+•	screen card
+
+
+
+
+        
+
+
+
+                       
+
+                       
+
+
+
+
+
+
+
+
+
+
+

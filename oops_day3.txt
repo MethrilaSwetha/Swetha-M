@@ -1,0 +1,69 @@
+                                                                DAY-3
+
+                                                          ASSIGNMENT
+
+1.Q.   Given a class named Patient, identify what instance methods could be written in this class.
+   A:     If class is named as Patient then the instance methods written in this class is -
+              METHODS
+•	Patient Details ()
+   - used to get all the details of patient
+
+•	Tests Required ()
+   - includes all the test required 
+
+•	Billing Details ()
+   -includes total charge
+
+•	Reports Storage ()
+   -includes all the reports of  disease of that patient to be stored for future use. 
+
+ 
+
+
+
+2.Q.  Given a class named CPU, identify the public & private instance members.
+A:       If class is named as CPU then the public and private instance members are given as-
+           PUBLIC 
+-  CPU specifications details like memory speed, core count, clock speed are known to               everyone(public).
+           PRIVATE
+              -  The backend coding used to develop these specifications. 
+
+
+
+
+
+3.Q.  Given a class named Media, assume there are 3 objects of this class. Identify the static members of this class.
+  A:     If class is named as Media then the objects and the static members of this class are-
+            Objects: 
+•	print media
+•	broadcast media
+•	internet media. 
+
+              static members: 
+•	Medium (internet, paper, broadcast)
+•	language
+•	news type (crime, politics etc.)
+
+
+
+
+4.Q.  Given a class named Calculator & its derived classes named Standard and Scientific, identify the method which can be overridden by the derived classes.
+
+A:      If class is named as Calculator and its derived classes named as Standard and Scientific, the method which can be overridden by the derived classes are-
+
+•	Addition () 
+•	subtraction () 
+•	Division () 
+•	 Multiplication () 
+
+
+
+5.Q.     Given the classes Bird, Superman, Aeroplane and Missile identify the usage of        interfaces here
+
+   A:     If the classes are Bird, Superman, Aeroplane and Missile,the usage of interfaces are-
+
+•	The common interfaces for all the class are flight 
+•	Bird and superman are living things they can have interfaces like food, oxygen, shelter.
+•	Interfaces between Aeroplane and missile are fuel and operation.
+
+ 
