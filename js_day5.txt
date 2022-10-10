@@ -179,7 +179,7 @@ SOL:
                 "username": "swetha",
                 "email": "swetha@1.com",
                 "address": {
-                    "street": "jp mordan",
+                    "street": "jp morgan kadubesanahalli",
                     "zipcode": "5000-1111",
                     "geo": {
                         "lat": "-48.4567",
@@ -189,7 +189,7 @@ SOL:
                 "phone": "9876543219",
                 "website": "jp morgan.org",
                 "company": {
-                    "name": "allu aravind",
+                    "name": "jp morgan",
                     "catchPhrase": "Multi-layered client-server neural-net",
                     "bs": "jp morgan real-time e-markets"
                 }
@@ -235,7 +235,7 @@ SOL:
                 "username": "swetha",
                 "email": "swetha@1.com",
                 "address": {
-                    "street": "jp mordan",
+                    "street": "jp morgan kadubesanahalli",
                     "zipcode": "5000-1111",
                     "geo": 
                     {
@@ -246,7 +246,7 @@ SOL:
                 "phone": "9876543219",
                 "website": "jp morgan.org",
                 "company": {
-                    "name": "allu aravind",
+                    "name": "jp morgan",
                     "catchPhrase": "Multi-layered client-server neural-net",
                     "bs": "jp morgan real-time e-markets"
                 }
